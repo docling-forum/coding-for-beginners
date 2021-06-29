@@ -1,0 +1,56 @@
+Language 
+  Name
+  Description
+  Family tree
+  Contact languages
+  Status
+  Codes
+  Alternative names
+  Location
+  Number of speakers
+
+Corpus:
+  Metadata
+  Texts
+    Text:
+      Metadata
+        Speaker(s)
+        Linguist(s)
+        Date
+        Place
+        Topic
+        Keywords
+        Languages
+      Sentences
+
+Lexicon
+  Metadata
+    Language name
+    Number of words
+    Speakers
+    Sources
+  Words
+    Word:
+      form
+      gloss
+      …
+
+Grammatical categories
+  Category:
+    Name      nominative
+    Category  case
+    Symbol    NOM
+
+
+Grammar
+  Phonology
+    Sounds
+      Consonants
+      Vowels
+      Tone
+
+  Morphology
+
+  Syntax
+
+  Discourse

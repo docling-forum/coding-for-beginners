@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2 - Coding for Beginners</title>
+
+  <style>
+    li {
+      color: rebeccapurple;
+      font-size: 2rem;
+      transform: rotate(2deg);
+      font-family: Impact;
+      text-shadow: -2px 2px 1px black;
+    }
+  </style>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body>
+
+<form>
+  <input>
+  <button>Add word</button>
+</form>
+
+<ol>
+</ol>
+<script type=module>
+
+let button = document.querySelector('button')
+
+let form = document.querySelector('form')
+form.addEventListener('submit', submitEvent => submitEvent.preventDefault())
+
+let input = document.querySelector('input')
+
+button.addEventListener('click', clickEvent => {
+  let word = input.value
+  let li = document.createElement('li')
+  li.textContent = word
+  document.querySelector('ol').append(li)
+
+  input.value = ''
+  input.focus()
+})
+
+</script>
+</body>
+</html> 
